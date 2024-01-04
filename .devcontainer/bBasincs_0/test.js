@@ -1,8 +1,17 @@
-console.log("Jagpreet");
+const Name = "Jagpreet"
+const  accountId = 1243
+ var  Email  = "JS@gmail.com"
+let  Password = 223144
 
-jagpreet = 100
-var ram  = "Hello"
-let kisha = "I am "
-const node = 2231
+ /* Name = "Singh"
+ accountId = 1234   not allowed
+ */ 
+ Email = "ts@gmail.com"
+ Password = 565675
 
-  console.table.log[]
+/*
+ prefer not to use var because 
+ issue in bloack scope and functional scope
+*/ 
+
+  console.table([Name, accountId ,Email, Password])
